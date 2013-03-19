@@ -1,0 +1,3 @@
+title: EHRD.clj
+-----
+content: Welcome to Clojure thingie

@@ -1,0 +1,7 @@
+/* humanstxt.org */
+
+/* SITE */
+  "CMS": Clover
+  Standards: HTML5, CSS3
+  Software: Clojure, Emacs, Foundation, String Templates
+  People:  Vijay Kiran http://vijaykiran.com
