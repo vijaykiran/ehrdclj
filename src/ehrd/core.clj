@@ -10,20 +10,20 @@
   (:import java.io.File))
 
 
-(defn process-route [{:keys [uri] :as r}]
-  (if-let [uri (if (= "/" uri) "home" uri)]
-    (let [f (File. (str "clover" File/separatorChar "content" File/separatorChar uri ".txt"))]
-      (if (.exists f)
-        (do
-          (println (str "processing route: " uri " with file: " (.getAbsolutePath f)
-                        " file exists: " (.exists f)))
-          (str (slurp f)))
-        (not-found "404 - Not Found"))))  )
+(defn process-request [{:keys [uri] :as r}]
+  (let [uri (if (= "/" uri) "home" uri)
+        template (File. (str "clover" File/separatorChar "templates" File/separatorChar uri ".st"))]
+    (if (.exists template)
+      (do
+        (println (str "processing route: " uri " with template file: " (.getAbsolutePath template)
+                      "template file exists: " (.exists template)))
+        (str (slurp template)))
+      (not-found "404 - Not Found"))))
 
 ;; routes
 (defroutes ehrd-routes
   (route/resources "/")
-  (GET "*" []  process-route))
+  (GET "*" []  process-request))
 
 (def ehrd-site
   (handler/site ehrd-routes))
