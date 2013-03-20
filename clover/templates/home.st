@@ -89,7 +89,7 @@
             <div class="row">
               <div class="large-4 columns">
                 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="images/cc.png" /></a>
-                <small>&copy; 2013 EHRD.clj</small>
+                <small>$copyright$</small>
               </div>
               <div class="large-6 columns">
                 <ul class="inline-list right">
