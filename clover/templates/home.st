@@ -43,7 +43,7 @@
             <h3 class="show-for-small">Welcome to EHRD.clj!<hr/></h3>
 
             <div class="panel">
-              <h5 class="hide-for-small">Rotterdam/The Hague Clojure Meetup<hr/></h5>
+              <h5>Rotterdam/The Hague Clojure Meetup<hr/></h5>
               <p>A monthly meetup of <a href="http://clojure.org">Clojure</a> enthusiasts and practitioners with topics such as <a href="#">Library of the Month</a> and <a href="#">This Month in Clojure</a> apart from Hackathons, talks by members and guests.</p>
               <p>We welcome every one, whether you are new to Clojure or a experienced Clojurian to join us and share your knowledge or learn new things from each other!</p>
               <p>Checkout our schedule on <a href="http://meetup.com/ehrd-clj">meetup.com</a> and rsvp to one of our meetings.<br/></p>
@@ -53,7 +53,7 @@
         <!-- End Header Content -->
 
         <div class="row">
-          <div class="large-4 small-4 columns">
+          <div class="large-4 hide-for-small columns">
             <div class="panel radius">
               <h5>Announcing our first meetup!</h5>
               <p>We are very excited to announce our first ever meetup with a key note by clojure contributor and author Christophe Grand!</p>
@@ -61,7 +61,17 @@
             </div>
           </div>
 
-          <div class="large-4 small-4 columns">
+          <div class="large-4 small-12 columns">
+            <div class="panel radius">
+              <h5>Upcoming Meetup</h5>
+              <h6 class"subheader">init.clj - The first meetup</h6>
+              <h6 class="subheader">Wednesday 27th March, 2013 19:00 - 21:30</h6>
+              <h6 class="subheader"><a href="http://lunatech.com" target="_blank">Lunatech</a>, Heemraadssingel 70, Rotterdam</h6>
+              <a href="http://www.meetup.com/ehrd-clj/events/104317822/" data-event="104317822"  class="small button radius alert mu-rsvp-btn">RSVP</a>
+            </div>
+          </div>
+
+          <div class="large-4 small-12 columns">
             <div class="panel radius">
               <h5 class="subheader">Our Sponsors</h5>
               <h6>Lunatech Research B.V.</h6>
@@ -72,15 +82,6 @@
             </div>
           </div>
 
-          <div class="large-4 small-4 columns">
-            <div class="panel radius">
-              <h5>Upcoming Meetup</h5>
-              <h6 class"subheader">init.clj - The first meetup</h6>
-              <h6 class="subheader">Wednesday 27th March, 2013 19:00 - 21:30</h6>
-              <h6 class="subheader"><a href="http://lunatech.com" target="_blank">Lunatech</a>, Heemraadssingel 70, Rotterdam</h6>
-              <a href="http://www.meetup.com/ehrd-clj/events/104317822/" data-event="104317822"  class="small button radius alert mu-rsvp-btn">RSVP</a>
-            </div>
-          </div>
         </div>
 
         <!-- Footer -->
