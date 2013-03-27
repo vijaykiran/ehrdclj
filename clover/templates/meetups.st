@@ -34,7 +34,7 @@
         <div class="row">
           <!-- Nav Sidebar -->
           <!-- This is source ordered to be pulled to the left on larger screens -->
-          <div class="large-3 columns ">
+          <div class="large-3 columns hide-for-small">
             <iframe width="225" height="570" src="http://meetu.ps/N5VG8" frameborder="0"></iframe>
           </div>
 
