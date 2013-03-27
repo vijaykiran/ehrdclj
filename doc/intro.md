@@ -12,6 +12,6 @@ Clover is a "dynamic website builder/runner" thing.
 * Templates are rendered by StringTemplate library.
 * The keys that you specify in the content can be rendered in the template using `$KEY_NAME$`
 * Each "content file" is rendered using a template and the template is picked up from clover/teamplates folder using the following order of priority
-  * NAME_OF_THE_CONTENT_FILE.tmpl
-  * default.tmpl (in the matching folder)
-  * defaut.tmpl in root  (clover/templates) folder
+  * NAME_OF_THE_CONTENT_FILE.st
+  * default.st (in the matching folder)
+  * defaut.st in root  (clover/templates) folder
