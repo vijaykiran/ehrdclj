@@ -58,7 +58,7 @@
             <div class="panel radius">
               <h5>Announcing our first meetup!</h5>
               <p>We are very excited to announce our first ever meetup with a key note by clojure contributor and author Christophe Grand!</p>
-              <a href="#" class="small button radius">Read More!</a>
+              <a href="/meetups" class="small button radius">Read More!</a>
             </div>
           </div>
 
