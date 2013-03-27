@@ -38,7 +38,7 @@
 
             <h3>$title$</h3>
             <p><em>(ehrd.clj)</em> is a meetup for Clojure enthustiasts in and aound Rotterdam and The Hague.
-              This meetu is organized by <a href="http://vijaykiran.com">Vijay Kiran</a> and <a href="http://twitter.com/minleychris">Chris Wilson.</a>
+              This meetup is organized by <a href="http://vijaykiran.com">Vijay Kiran</a> and <a href="http://twitter.com/minleychris">Chris Wilson.</a>
             </p>
 
             <p>The name (ehrd.clj) comes from the ICAO airport code <a href="http://en.wikipedia.org/wiki/Rotterdam_The_Hague_Airport">EHRD</a> (Rotterdam/The Hague Airport).</p>
