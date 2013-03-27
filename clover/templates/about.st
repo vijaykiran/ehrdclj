@@ -29,7 +29,7 @@
             <li><a href="/about" class="button">About</a></li>
           </ul>
         </div>
-
+        <hr/>
         <!-- End Navigation -->
         <div class="row">
           <!-- Main Content Section -->

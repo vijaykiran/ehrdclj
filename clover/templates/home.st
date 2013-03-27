@@ -31,6 +31,7 @@
         </div>
 
         <!-- End Navigation -->
+        <hr/>
         <!-- Header Content -->
         <div class="row">
 
