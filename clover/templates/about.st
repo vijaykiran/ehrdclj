@@ -45,15 +45,15 @@
           <!-- This is source ordered to be pulled to the left on larger screens -->
           <div class="large-3 pull-9 columns">
             <div class="panel radius">
-              <h6>Upcoming Meetup</h6>
-              <h6 class"subheader">init.clj - The first meetup</h6>
-              <h6 class="subheader">Wednesday 27th March, 2013 19:00 - 21:30</h6>
+              <h5 class="subheader">Upcoming Meetup</h5>
+              <h5 "subheader">27th March, 2013 19:00 - 21:30</h5>
               <h6 class="subheader"><a href="http://lunatech.com" target="_blank">Lunatech</a>, Heemraadssingel 70, Rotterdam</h6>
               <a href="http://www.meetup.com/ehrd-clj/events/104317822/" data-event="104317822"  class="small button radius alert mu-rsvp-btn">RSVP</a>
             </div>
+
             <div class="panel radius">
               <h5 class="subheader">Our Sponsors</h5>
-              <h6>Lunatech Research B.V.</h6>
+              <h6>Lunatech</h6>
               <p><a href="http://lunatech.com">www.lunatech.com</a></p>
               <h6>Planspot</h6>
               <p><a href="http://planspot.com">www.planspot.com</a></p>
