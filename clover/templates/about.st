@@ -37,7 +37,21 @@
           <div class="large-9 push-3 columns">
 
             <h3>$title$</h3>
-            <p>PAGE CONTENT</p>
+            <p><em>(ehrd.clj)</em> is a meetup for Clojure enthustiasts in and aound Rotterdam and The Hague.
+              This meetu is organized by <a href="http://vijaykiran.com">Vijay Kiran</a> and <a href="http://twitter.com/minleychris">Chris Wilson.</a>
+            </p>
+
+            <p>The name (ehrd.clj) comes from the ICAO airport code <a href="http://en.wikipedia.org/wiki/Rotterdam_The_Hague_Airport">EHRD</a> (Rotterdam/The Hague Airport).</p>
+
+            <p>We intend to meet on the fourth Wednesday of every month for a couple of hours.  We aim to have a regular format consisting of a short talk on a Clojure library or tool, a discussion of the month's Clojure news and a main feature - maybe a talk, maybe a hack-a-long, maybe a dojo, maybe something else.</p>
+
+
+
+            <h4>Latest Tweets</h4>
+            <p class="hide-for-small">
+            <a class="twitter-timeline" href="https://twitter.com/ehrdclj" data-widget-id="316865154174287873">Tweets by @ehrdclj</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </p>
           </div>
 
 
