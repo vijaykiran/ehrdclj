@@ -28,15 +28,27 @@
           (.exists folder-default) folder-default
           :else site-default)))
 
+(defn- get-content-map
+  "get the key/values from file.txt"
+  [file]
+  (let [s (slurp file)]
+    ;; This is obviously silly way to process the content, but it works :)
+    (into {}  (map (fn [x] (clojure.string/split x #":" 2))
+                   (clojure.string/split s #"\n----\n")))))
+
+(defn- get-common-content
+  "Get the key-values from _common.txt "
+  []
+  (get-content-map (File. (str clover-content "_common.txt"))))
+
 (defn- get-content
-  "Get the content (map) from clover/content/uri.txt, otherwise nil"
+  "Get the content (map) from clover/content/uri.txt merged with _common.txt content"
   [uri]
-  (let [file (File. (str clover-content uri ".txt"))]
+  (let [file (File. (str clover-content uri ".txt"))
+        content (get-common-content)]
     (if (.exists file)
-      (let [s (slurp file)]
-        ;; This is obviously silly way to process the content, but it works :)
-        (into {}  (map (fn [x] (clojure.string/split x #":" 2))
-                       (clojure.string/split s #"\n----\n")))))))
+      (merge content (get-content-map file))
+      content)))
 
 (defn- render
   "Returns string - template t with content map cm"
