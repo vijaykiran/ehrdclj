@@ -1,6 +1,6 @@
 (defproject ehrd "0.1.0-SNAPSHOT"
   :description "Website for Rotterdam/The Hague Meetup"
-  :url "http://ehrd-clj.org/"
+  :url "http://www.ehrdclj.org/"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[compojure "1.1.5"]
