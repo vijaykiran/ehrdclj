@@ -25,6 +25,7 @@
         <div class="large-9 columns">
           <ul class="button-group right">
             <li><a href="/home" class="button">Home</a></li>
+            <li><a href="/blog" class="button">Blog</a></li>
             <li><a href="/meetups" class="button">Meetups</a></li>
             <li><a href="/about" class="button">About</a></li>
           </ul>
@@ -88,6 +89,7 @@
               <div class="large-6 columns">
                 <ul class="inline-list right">
                   <li><a href="/home">Home</a></li>
+                  <li><a href="/blog">Blog</a></li>
                   <li><a href="/meetups">Meetups</a></li>
                   <li><a href="/about">About</a></li>
                 </ul>

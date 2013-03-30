@@ -25,6 +25,7 @@
         <div class="large-9 columns">
           <ul class="button-group right">
             <li><a href="/home" class="button">Home</a></li>
+            <li><a href="/blog" class="button">Blog</a></li>
             <li><a href="/meetups" class="button">Meetups</a></li>
             <li><a href="/about" class="button">About</a></li>
           </ul>
@@ -32,11 +33,9 @@
         <hr/>
         <!-- End Navigation -->
         <div class="row">
-          <!-- Main Content Section -->
-          <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
-          <div class="large-9 push-3 columns">
-
-            <h3>$title$</h3>
+          <div class="large-9 push-3 columns" role="content">
+          <article>
+            <h3><a href="#">$title$</a></h3>
             <p><em>(ehrd.clj)</em> is a meetup for Clojure enthustiasts in and aound Rotterdam and The Hague.
               This meetup is organized by <a href="http://vijaykiran.com">Vijay Kiran</a> and <a href="http://twitter.com/minleychris">Chris Wilson.</a>
             </p>
@@ -45,7 +44,7 @@
 
             <p>We intend to meet on the fourth Wednesday of every month for a couple of hours.  We aim to have a regular format consisting of a short talk on a Clojure library or tool, a discussion of the month's Clojure news and a main feature - maybe a talk, maybe a hack-a-long, maybe a dojo, maybe something else.</p>
 
-
+            </article>
 
             <h4>Latest Tweets</h4>
             <p class="hide-for-small">
@@ -87,6 +86,7 @@
               <div class="large-6 columns">
                 <ul class="inline-list right">
                   <li><a href="/home">Home</a></li>
+                  <li><a href="/blog">Blog</a></li>
                   <li><a href="/meetups">Meetups</a></li>
                   <li><a href="/about">About</a></li>
                 </ul>

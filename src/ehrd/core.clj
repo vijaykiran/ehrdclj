@@ -15,18 +15,26 @@
 (def clover-templates (str "clover" File/separatorChar "templates" File/separatorChar))
 (def clover-content (str "clover" File/separatorChar "content" File/separatorChar))
 
+(defn- template-file
+  "Get the template file for path if exists, otherwise nil."
+  [file-name]
+  (let [f (File. (str clover-templates File/separatorChar file-name ".st"))]
+    (if (.exists f) f)))
+
+
 (defn- get-template
-  "Get template for given uri:
-   if the uri.st file is available, return it
-   or if there's a default.st in the same path of the uri, return it
-   otherwise return site's default.st"
-  [uri]
-  (let [custom (File. (str clover-templates uri ".st"))
-        folder-default (File. (str clover-templates uri File/separatorChar "default.st"))
-        site-default (File. (str clover-templates "default.st"))]
-    (cond (.exists custom) custom
-          (.exists folder-default) folder-default
-          :else site-default)))
+  "Get the template for a uri of the form '/x/y/z:'
+  in the order of availability pick the /x/y/z.st or x/y/default.st otherwise,
+  /x/y.st or /x/default.st and so on."
+  [path]
+  (loop [components (clojure.string/split path #"/")]
+    (let [cf (first (rseq components))
+          cp (clojure.string/join "/" (drop-last components))
+          tf (template-file (str cp File/separatorChar cf))
+          df (template-file (str cp File/separatorChar "default"))]
+      (cond (not (nil? tf)) tf
+            (not (nil? df)) df
+            :else (recur (vec (drop-last components)))))))
 
 (defn- get-content-map
   "get the key/values from file.txt"
@@ -61,7 +69,6 @@
   (let [uri (if (= "/" uri) "home" uri)
         content (get-content uri)
         template (get-template uri)]
-    (println content)
     (if (not (nil? content))
       (render template content)
       (not-found "404 - Not Found"))))
