@@ -47,8 +47,7 @@
   (let [file (File. (str clover-content uri ".txt"))
         content (get-common-content)]
     (if (.exists file)
-      (merge content (get-content-map file))
-      content)))
+      (merge content (get-content-map file)))))
 
 (defn- render
   "Returns string - template t with content map cm"
@@ -62,6 +61,7 @@
   (let [uri (if (= "/" uri) "home" uri)
         content (get-content uri)
         template (get-template uri)]
+    (println content)
     (if (not (nil? content))
       (render template content)
       (not-found "404 - Not Found"))))
