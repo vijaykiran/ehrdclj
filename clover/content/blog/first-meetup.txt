@@ -1,0 +1,22 @@
+title: Successful first meetup
+----
+content:
+The first EHRD.clj meetup was held on 27 March in Rotterdam.  We'd like to thank the 23 attendees, the sponsors and, most of all, Christophe Grand for making it such a great success.
+
+The evening started with with food and drinks (provided by the sponsors, Lunatech and Planspot) while we chatted with old acquaintances and met new ones.  We then sat down for a talk from Christo	phe Grand entitled “You Aren’t Gonna Need It” <a href="/files/27-March-2013-cgrand-YAGNI.pdf">slides</a>.
+
+Christophe talked about a simplified approach to programming in Clojure specifically for beginners focussing on the core Clojure language and libraries rather than spending a lot of time and energy learning all the advanced features of Clojure.  The aim of this is to help Clojure beginners to break their old imperative habits and to develop a thorough understanding of the core language.  This was a great talk, and a great way to bring new Clojure developers into the language without overwhelming them too much.
+
+We plan to have a regular structure to EHRD.clj meetups - one main feature (a talk or a hackathon or something else) and two shorter discussions, “Library of the Month” – a more in-depth look at a single library or tool and “This Month in Clojure”.  However this month, as we had a guest speaker who had travelled so far for the meeting we managed to get two talks out of him.  We did have time, though, for a brief “This Month in Clojure” where we discussed people's opinions of <a href="http://pedestal.io/">Pedestal</a> and <a href="http://www.lighttable.com/">Light Table</a>, amongst others.
+
+This was followed by a brief interval for more food and drinks before Christophe started his second talk “(def declarative)” <a href="/files/27-March-2013-cgrand-def-declarative.pdf">slides</a>.  This was an exploratory talk covering Christophe's current thinking within the field of declarative programming.
+
+Christophe started off stating that functional programming is further up the “abstraction ladder” than imperative programming, but he also stated that if we want greater abstraction we need to look towards declarative programming.  This lead into a review of the ways functional programming is more abstract than imperative programming before looking briefly at the ideas of idempotency
+and commutativity as the keys to this abstraction.  He then looked at the areas that Clojure could be more abstract, coming to the conclusion that the sorts of things that are less abstract in Clojure are sequences.  We then looked at some practical ways of making our code and our APIs more abstract – Christophe reviewed some of his older open source projects and looked at ways to make them more declarative.  Finally Christophe showed us two new projects he's working on – firstly SQRel, a declarative SQL library and secondly “Mashup”, an API to mashup various different data sources.  This talk gave a lot of food for thought, I particularly liked the idea of applying declarative approaches to APIs.
+
+After Christophe's talk we had an opportunity to discuss some of these ideas over drinks.
+
+All in all it was a very enjoyable night, much was learned and much was discussed.  The next meetup will be on <a href="http://www.meetup.com/ehrd-clj/events/106661652/">Wednesday April 24</a> and we're looking forward to it already.  Hope to see you there.
+----
+author: Chris Wilson @minleychris
+----
