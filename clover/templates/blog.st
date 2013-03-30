@@ -46,6 +46,13 @@
             The first EHRD.clj meetup was held on 27 March in Rotterdam.  We'd like to thank the 23 attendees, the sponsors and, most of all, Christophe Grand for making it such a great success.
             </p>
             <hr/>
+
+            <h5><a href="/blog/this-month-in-clojure-march">This Month in Clojure: March 2013</a></h5>
+            <p>
+              This is a brief summary of some of the news to come out of the Clojure world over the last month. This page is just here as a record of what we talked about, mainly as a reference for those present at the meetup.
+            </p>
+            <hr/>
+
           </div>
 
           </article>

@@ -1,60 +1,64 @@
 title: This month in Clojure
 ----
+contentTitle: This month in Clojure
+----
 content:
 <p>
   This is a brief summary of some of the news to come out of the Clojure world over the last month.  This page is just here as a record of what we talked about, mainly as a reference for those present.
 </p>
 
-<h2>Core</h2>
-<h3>Clojure 1.5(.1) <a href="http://clojure.org/">http://clojure.org/</a></h3>
+<h4>Core</h4>
+<h5>Clojure 1.5(.1) <a href="http://clojure.org/">http://clojure.org/</a></h5>
 
 <ul>
-<li>Reducers - higher order functions (map, filter etc) trading laziness for parallelism - choose what’s best for you</li>
-<li>General improvements</li>
-<li>Bug fixes</li>
-<li>Performance improvements</li>
+  <li>Reducers - higher order functions (map, filter etc) trading laziness for parallelism - choose what’s best for you</li>
+  <li>General improvements</li>
+  <li>Bug fixes</li>
+  <li>Performance improvements</li>
 </ul>
 
-<h2>Libraries</h2>
-<h3>Immutant 0.9.0 <a href="http://immutant.org/">http://immutant.org/</a></h3>
+<h4>Libraries</h2>
+<h5>Immutant 0.9.0 <a href="http://immutant.org/">http://immutant.org/</a></h5>
 <p>Application server for Clojure</p>
 
 <ul><li>Bug fixes, aiming for release of 1.0 soon.</li></ul>
 
-<h3>pedestal <a href="http://pedestal.io/">http://pedestal.io/</a></h3>
+<h5>pedestal <a href="http://pedestal.io/">http://pedestal.io/</a></h5>
 <p>Framework for creating rich-client web applications</p>
 
 <ul>
-<li>Clojure (Clojurescript) end-to-end</li>
-<li>Aims to provide a cohesive way to build rich web applications in Clojure</li>
-<li>Main concepts are back-end “services” and front end “apps”</li>
+  <li>Clojure (Clojurescript) end-to-end</li>
+  <li>Aims to provide a cohesive way to build rich web applications in Clojure</li>
+  <li>Main concepts are back-end “services” and front end “apps”</li>
 </ul>
 
-<h2>Tools</h2>
-<h3>Leiningen 2.1(.1) <a href="https://github.com/technomancy/leiningen">https://github.com/technomancy/leiningen</a></h3>
+<h4>Tools</h2>
+<h5>Leiningen 2.1(.1) <a href="https://github.com/technomancy/leiningen">https://github.com/technomancy/leiningen</a></h5>
 <p>Most popular build/development/everything tool for Clojure</p>
 
 <ul><li>New features, bug fixes</li></ul>
 
-<h3>Simulant <a href="https://github.com/Datomic/simulant">https://github.com/Datomic/simulant</a></h3>
+<h5>Simulant <a href="https://github.com/Datomic/simulant">https://github.com/Datomic/simulant</a></h5>
 <p>Statistic-model based testing of a system</p>
 
 <ul>
-<li>Comes out of work in Datomic</li>
-<li>Designed for testing large, complex systems</li>
+  <li>Comes out of work in Datomic</li>
+  <li>Designed for testing large, complex systems</li>
 </ul>
 
-<h3>Light table 0.3(.9) <a href="http://www.lighttable.com/">http://www.lighttable.com/</a></h3>
+<h5>Light table 0.3(.9) <a href="http://www.lighttable.com/">http://www.lighttable.com/</a></h5>
 
 <ul>
-<li>New look and feel (including in-line results)</li>
-<li>JS and CSS eval</li>
-<li>Moving towards original promise</li>
+  <li>New look and feel (including in-line results)</li>
+  <li>JS and CSS eval</li>
+  <li>Moving towards original promise</li>
 </ul>
 
-<h2>Other</h2>
-<h3>ClojureWest <a href="http://clojurewest.org/">http://clojurewest.org/</a></h3>
+<h4>Other</h2>
+<h5>ClojureWest <a href="http://clojurewest.org/">http://clojurewest.org/</a></h5>
 <p>Looks like there were some interesting talks here - look out for the videos being slowly released over the next few months.  Interesting looking talks from Rich Hickey (Design, Composition, and Performance), Stuart Sierra (Clojure in the Large), plus talks on some of the above (Simulant, pedestal).</p>
-
 ----
-author: Chris Wilson @minleychris
+author: Chris Wilson <a href="http://twitter.com/minleychris">@minleychris</a>
+----
+date: 31-March-2013
+----
