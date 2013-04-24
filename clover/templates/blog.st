@@ -41,7 +41,7 @@
           <article>
           <div class="large-9 columns" role="content">
             <h3>$contentTitle$</h3>
-            <h5><a href="/blog/this-month-in-clojure-april">This Mont in Clojure: April 2013</a></h5>
+            <h5><a href="/blog/this-month-in-clojure-april">This Month in Clojure: April 2013</a></h5>
             <p>
             Brief summary of some of the news to come out of the Clojure world during April 2013. This page is just here as a record of what we talked about, mainly as a reference for those present.
             </p>
