@@ -1,0 +1,69 @@
+title: This month in Clojure, April 2013
+----
+contentTitle: This month in Clojure, April 2013
+----
+content:
+<p>
+  This is a brief summary of some of the news to come out of the Clojure world during April 2013.
+  This page is just here as a record of what we talked about, mainly as a reference for those present.
+</p>
+
+<h4>Tools</h4>
+<h5>Structural Editing <a href="http://alan.dipert.org/post/47444634908/structural-editing-revisited">http://alan.dipert.org/post/47444634908/structural-editing-revisited</a></h5>
+<p>Its great to see people challenging established orders with clojure</p>
+
+<ul>
+  <li>Based on old ideas od Listp editors</li>
+  <li>Paredit commands</li>
+  <li>No files...</li>
+</ul>
+
+<h4>Libraries</h2>
+<h5>HTTP Kit 2.0(.1) released <a href="http://http-kit.org/">http://http-kit.org/</a></h5>
+<p>Efficient event driven web server with a unified API for WebSocket/long polling.</p>
+
+<ul><li>Bug fixes, cleaning up implementation, api unification.</li></ul>
+
+<h5>Garden <a href="https://github.com/noprompt/garden">https://github.com/noprompt/garden</a></h5>
+<p>Rendering CSS in Clojure</p>
+
+<ul>
+  <li>Conceptually similar to Hiccup</li>
+  <li>Unit concept</li>
+</ul>
+
+<h4>Interop</h2>
+<h5>clojure-py <a href="https://github.com/halgari/clojure-py">https://github.com/halgari/clojure-py</a></h5>
+<p>Implementation of Clojure in Python</p>
+
+<ul>
+  <li>Targetted to pypy virtual machine</li>
+  <li>Interop with Python libraries</li>
+</ul>
+
+<h5>graaph <a href="https://github.com/mrb/graaaph/">https://github.com/mrb/graaaph</a></h5>
+<p>Use JRuby's AST representation of Ruby code from within Clojure</p>
+
+<ul>
+  <li>Goal is to make interop as transparent as possible</li>
+</ul>
+
+
+<h4>Other</h2>
+<h5>Clojure style guide <a href="https://github.com/bbatsov/clojure-style-guide">https://github.com/bbatsov/clojure-style-guide</a></h5>
+<p>Guide on best practices for the real-world.</p>
+
+<h5>Inleiding Functioneel Programmeren met Clojure <a href="http://michielborkent.nl/clojurecursus/">http://michielborkent.nl/clojurecursus/</a></h5>
+<p>Dutch language functional programming guide using Clojure</p>
+
+<h5>Functional Design Patterns <a href="http://www.infoq.com/presentations/Clojure-Design-Patterns">http://www.infoq.com/presentations/Clojure-Design-Patterns</a></h5>
+<p>Video of Stuart Sierra talking about common design patterns.  Very good indeed.</p>
+
+<h5>ClojureWest slides <a href="https://github.com/strangeloop/clojurewest2013">https://github.com/strangeloop/clojurewest2013</a></h5>
+<p>The slides from ClojureWest are now up.</p>
+
+----
+author: Chris Wilson <a href="http://twitter.com/minleychris">@minleychris</a>
+----
+date: 24-April-2013
+----
