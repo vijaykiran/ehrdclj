@@ -55,9 +55,23 @@
                   <li>Two Talks by Christophe Grand</li>
                   <li>On to a nearest cafe for further "networking"</li>
                 </ul>
-            <!-- End Meetup Entry -->
             <hr />
           </div>
+          
+          <div class="row right">
+            <h5>nth Meetup <small class="label secondary radius right">Last Wednesdays of the month</small></h5>
+              <p>The Agenda of Evenings: </p>
+              <ul>
+                <li>Welcome - Introductions, Meet & Greet</li>
+                <li>Library of the month</li>
+                <li>This Month in Clojure - Chris Wilson</li>
+                <li>Coffee/Tea Break</li>
+                <li>Main feature</li>
+                <li>Networking/Topics of Interest/Suggestions & Comments & Discussion about Meetup Planning</li>
+                <li>Wrap up :-)</li>
+              </ul>
+          <!-- End Meetup Entry -->
+        </div>
 
         </div>
 
