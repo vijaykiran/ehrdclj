@@ -63,11 +63,10 @@
           <div class="large-4 small-12 columns">
             <div class="panel radius">
               <h5>Upcoming Meetup</h5>
-              <h6 class"subheader">(second (repeat ["ehrd.clj"]))</h6>
-              <h6 class="subheader">Wednesday, April 24, 2013</h6>
-              <h6>19:00 - 21:30</h6>
+              <h6 class"subheader">init.clj - The third meetup</h6>
+              <h6 class="subheader">Wednesday 22nd May, 2013 19:00 - 21:30</h6>
               <h6 class="subheader"><a href="http://lunatech.com" target="_blank">Lunatech</a>, Heemraadssingel 70, Rotterdam</h6>
-              <a href="http://www.meetup.com/ehrd-clj/events/106661652/" data-event="104317822"  class="small button radius alert mu-rsvp-btn">RSVP</a>
+              <a href="http://www.meetup.com/ehrd-clj/events/106662762/" data-event="106662762"  class="small button radius alert mu-rsvp-btn" target="_blank">RSVP</a>
             </div>
           </div>
 
