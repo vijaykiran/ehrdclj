@@ -1,0 +1,24 @@
+title: EHRD.clj
+----
+Content:
+
+<h2>Interesting Topics</h2>
+
+<p>This page lists a possible list of topics for talks/exploration. These can also be used as inspiration
+  for Library of the Month Talks or a longer main talk during the meetup.
+</p>
+
+<ul>
+  <li><a href="https://github.com/marick/Midje">Midje - Clojure Test Framework</a></li>
+  <li><a href="https://github.com/clojure/core.typed">Typed Clojure</a></li>
+  <li><a href="https://github.com/quil/quil">Quil - (mix Processing Clojure)</a></li>
+  <li><a href="https://github.com/Engelberg/instaparse">Instaparse</a></li>
+  <li><a href="https://github.com/flyingmachine/serialize">Serialize</a></li>
+  <li><a href="https://github.com/zcaudate/adi">adi - (a) (d)atomic (i)nterface</a></li>
+  <li><a href="https://github.com/runexec/equate">Equate - Fact Management Library</a></li>
+  <li><a href="https://github.com/zcaudate/purnam">Purnam - AngularJs Language Extensions for Clojurescript</a></li>
+  <li><a href="https://github.com/runa-dev/kits">Clojure Utils by Runa</a></li>
+  <li><a href="https://github.com/Prismatic/plumbing">Clojure Utils by Prismatic</a></li>
+</ul>
+
+----
