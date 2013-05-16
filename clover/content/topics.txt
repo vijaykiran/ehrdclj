@@ -1,6 +1,6 @@
 title: EHRD.clj
 ----
-Content:
+content:
 
 <h2>Interesting Topics</h2>
 
