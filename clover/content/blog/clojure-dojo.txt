@@ -1,0 +1,56 @@
+title:Blog - Clojure Dojo
+----
+contentTitle:Clojure Dojo
+----
+author: Chris Wilson <a href="http://twitter.com/minleychris">@minleychris</a>
+----
+date: 02-July-2013
+----
+content:
+<p><i>This post is also on the <a href="http://minley.org/blog/2013-06/clojure-dojo.html">Chris's blog</a></i></p>
+
+<img src="/images/dojo.jpg" style="float: right; margin: 0px 0px 10px 10px" />
+
+<p>
+  For the third Rotterdam/The Hague Clojure Meetup we decided to run a Dojo.  For the uninitiated a Dojo, in this context, is a structured group exercise to practice programming.  Dojos come from the idea of Coding Katas, initially expressed in the book <a href="http://pragprog.com/book/tpp/the-pragmatic-programmer">The Pragmatic Programmer</a>.  These Katas were small exercises to practice programming away from work.  In 2005, Parisian Laurent Bossavit decided that doing these exercises in a group would be a nice idea and the Dojo concept was born.
+</p>
+
+<p>
+  There are several ways to run a Dojo, but the principal is that people work together on a problem as equals ensuring that everyone understands the solution.  They generally use either Test or Behaviour Driven Development.  We used the "Randori" or "Finnish" style which consists of rotating pairs working for a set amount of time on the problem before another pair takes a turn.  Specifically, within the pairs, one is typing and one is working with them.  After five minutes, the typist goes back to the audience, the other would become the typist and the next member of the audience would join to work with them.
+</p>
+
+<p>
+  Tools-wise we were using Clojure (obviously!), and using <a href="https://github.com/marick/Midje">Midje</a> to do Test-Driven Development.  As an editor we used <a href="http://www.lighttable.com/">LightTable</a>.  We hooked a laptop up to the projector and had a second laptop continuously counting down 5 minute blocks.  I had set up a <a href="https://github.com/EHRD-clj/ehrd-clj-dojo">skeleton project</a> to enable a quick start.  Before starting I gave a short talk on Midje and on how the Dojo works and during the Dojo I acted as moderator.
+</p>
+
+<p>
+  The problem we chose to solve was to generate Roman numerals from Western positive integers (1->I, 2->II etc).  Our solution is <a href="https://github.com/EHRD-clj/ehrd-clj-dojo/tree/may_2-13_dojo">here</a>.  Over the course of about 40 minutes we covered numbers up to 19.  Not the highest work-rate, but its about the journey, not the destination.  I think its fair to say that all participants enjoyed it.  Everyone had two turns at the keyboard, and everyone seemed to get a lot from the exercise.  The group was quite mixed, a couple of participants were mostly new to Clojure while others were more experienced.
+</p>
+
+<h2>Practical points</h2>
+
+<p>
+  As a group we intend to do more Dojos in the future, and as such  would like to draw out some specific things that worked well and some things that could have been better.
+</p>
+
+<h3>Things that were good</h3>
+
+<ul>
+  <li>Using a simple editor was good - no strange key-bindings to confuse people</li>
+  <li>Using Midje was good - its test structure is nice, its auto-test works well and it's intuitive to use</li>
+  <li>Having a bare-bones project set up worked well, we could just start coding</li>
+</ul>
+
+<h3>Things that could have been better</h3>
+
+<ul>
+  <li>We could have done with a little more time (we could have started the meeting quicker) - an hour would be a good length.</li>
+  <li>The moderator should have kept the audience a little quieter and more focussed on the problem (sorry!)</li>
+  <li>The editing set-up we had would have been better with the REPL on the same screen as the editor so we could see when tests failed and also work in the REPL as needed</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>
+  The Dojo worked well despite having a wide range of experience within participants.  It was fun, everyone learned something and everyone understood and had ownership of the solution.  In the future there are some small procedural issues to think over, but these should be simply solvable.  We're looking forward to the next one!
+</p>
