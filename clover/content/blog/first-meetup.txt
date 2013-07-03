@@ -3,6 +3,11 @@ title:Blog - Successful first metup
 contentTitle:Successful first meetup
 ----
 content:
+<p><i>This post is also on the <a href="http://minley.org/blog/2013-04/first-meetup.html">Chris's blog</a></i></p>
+
+
+<img src="/img/cgrand.jpg" style="float: right; margin: 0px 0px 10px 10px" />
+
 <p>
 The first EHRD.clj meetup was held on 27 March in Rotterdam.  We'd like to thank the 23 attendees, the sponsors and, most of all, Christophe Grand for making it such a great success.
 </p>
