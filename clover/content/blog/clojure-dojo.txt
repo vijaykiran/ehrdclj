@@ -7,7 +7,7 @@ author: Chris Wilson <a href="http://twitter.com/minleychris">@minleychris</a>
 date: 02-July-2013
 ----
 content:
-<p><i>This post is also on the <a href="http://minley.org/blog/2013-06/clojure-dojo.html">Chris's blog</a></i></p>
+<p><i>This post is also on the <a href="http://minley.org/2013-07/clojure-dojo.html">Chris's blog</a></i></p>
 
 <img src="/images/dojo.jpg" style="float: right; margin: 0px 0px 10px 10px" />
 
